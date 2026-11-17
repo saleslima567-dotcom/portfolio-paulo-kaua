@@ -10,7 +10,7 @@ Abra `index.html` no navegador. O portfólio não exige instalação, build ou b
 
 Este é um site estático, sem etapa de build: `index.html`, `style.css` e `script.js` ficam na raiz. Para publicar pelo GitHub, envie esta pasta a um repositório próprio e crie um projeto Pages conectado a ele. Use a raiz do repositório como diretório raiz; deixe o comando de build vazio e informe `.` como diretório de saída. Cada push na branch de produção publica uma nova versão.
 
-Também é possível fazer upload direto pelo painel do Cloudflare Pages. Esse tipo de projeto não pode ser convertido depois para integração Git; para atualizações automáticas, escolha integração Git desde o início. Antes de divulgar, confira se deseja acrescentar um e-mail profissional ou LinkedIn na área de contato.
+Também é possível fazer upload direto pelo painel do Cloudflare Pages. Esse tipo de projeto não pode ser convertido depois para integração Git; para atualizações automáticas, escolha integração Git desde o início. O contato por e-mail abre uma nova mensagem para saleslima567@gmail.com.
 
 ## Conteúdo
 
@@ -19,4 +19,5 @@ Também é possível fazer upload direto pelo painel do Cloudflare Pages. Esse t
 
 ## Personalização
 
-Os links de GitHub e da demonstração estão em `index.html`. Atualize-os se os repositórios ou endereços mudarem. O portfólio não apresenta endereço de e-mail inventado.
+Os links de GitHub e da demonstração estão em `index.html`. Atualize-os se os repositórios ou endereços mudarem. O e-mail informado pelo autor está incluído como contato clicável.
+
