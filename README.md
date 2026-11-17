@@ -8,7 +8,9 @@ Abra `index.html` no navegador. O portfólio não exige instalação, build ou b
 
 ## Publicação
 
-O portfólio é um site estático, sem etapa de build: `index.html`, `style.css` e `script.js` ficam na raiz. Ele está publicado no Cloudflare em um endereço `workers.dev`. Para que cada envio ao GitHub publique a nova versão automaticamente, o serviço precisa estar conectado ao repositório `saleslima567-dotcom/portfolio-paulo-kaua` por Git integration/Workers Builds. Se o deploy tiver sido feito por upload manual, será necessário enviar os arquivos atualizados pelo painel do Cloudflare.
+**Acessar o portfólio:** [portfolio-paulo-kaua.paulokauan.workers.dev](https://portfolio-paulo-kaua.paulokauan.workers.dev/)
+
+O portfólio é um site estático, sem etapa de build: `index.html`, `style.css` e `script.js` ficam na raiz. Para que cada envio ao GitHub publique a nova versão automaticamente, o serviço precisa estar conectado ao repositório `saleslima567-dotcom/portfolio-paulo-kaua` por Git integration/Workers Builds. Se o deploy tiver sido feito por upload manual, será necessário enviar os arquivos atualizados pelo painel do Cloudflare.
 
 O contato por e-mail abre uma nova mensagem para saleslima567@gmail.com.
 
