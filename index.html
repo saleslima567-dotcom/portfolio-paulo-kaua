@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f4f2eb" />
-    <meta name="description" content="Portfólio de Paulo Kauã — desenvolvedor web em formação. Projetos LearnPlay e Inventário de Softwares, com frontend, APIs, dados e deploy." />
+    <meta name="description" content="Portfólio de Paulo Kauã — desenvolvedor web em formação. Conheça LearnPlay e Inventário de Softwares, projetos com interfaces, APIs, bancos de dados e deploy na nuvem." />
     <title>Paulo Kauã — Desenvolvedor Web</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,7 +48,7 @@
       </section>
 
       <section class="ticker" aria-label="Tecnologias">
-        <div class="ticker-track"><span>HTML & CSS</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i><span>REACT + TYPESCRIPT</span><i>✳</i><span>PYTHON + FLASK</span><i>✳</i><span>POSTGRESQL</span><i>✳</i><span>HTML & CSS</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i><span>REACT + TYPESCRIPT</span><i>✳</i><span>PYTHON + FLASK</span><i>✳</i><span>POSTGRESQL</span><i>✳</i></div>
+        <div class="ticker-track"><span>HTML & CSS</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i><span>REACT + TYPESCRIPT</span><i>✳</i><span>PYTHON + FLASK</span><i>✳</i><span>POSTGRESQL</span><i>✳</i><span>CLOUDFLARE WORKERS + D1</span><i>✳</i><span>HTML & CSS</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i><span>REACT + TYPESCRIPT</span><i>✳</i><span>PYTHON + FLASK</span><i>✳</i><span>POSTGRESQL</span><i>✳</i><span>CLOUDFLARE WORKERS + D1</span><i>✳</i></div>
       </section>
 
       <section class="projects wrap section" id="projetos">
@@ -80,18 +80,30 @@
         </article>
 
         <article class="project-card project-secondary reveal">
-          <div class="project-visual inventory-visual">
-            <div class="inventory-window"><div class="inventory-bar"><span>INVENTÁRIO / TI</span><b>● ● ●</b></div><div class="inventory-title">Softwares<br /><em>sob controle.</em></div><div class="inventory-stat"><span>LICENÇAS ACOMPANHADAS</span><strong>08 <i>itens</i></strong></div><div class="inventory-row"><span>Adobe Creative Cloud</span><b class="tag-active">ATIVA</b></div><div class="inventory-row"><span>Microsoft 365</span><b class="tag-soon">RENOVA EM 12 DIAS</b></div><div class="inventory-row"><span>Antivírus Pro</span><b class="tag-expired">VENCIDA</b></div></div>
-            <span class="inventory-sticker">CRUD<br />+ STORAGE</span>
+          <div class="project-visual inventory-visual" aria-label="Prévia ilustrativa do painel de licenças do Inventário de Softwares">
+            <div class="inventory-window"><div class="inventory-bar"><span>INVENTÁRIO / CLOUD</span><b>● ● ●</b></div><div class="inventory-title">Softwares<br /><em>sob controle.</em></div><div class="inventory-stat"><span>LICENÇAS ACOMPANHADAS</span><strong>08 <i>itens</i></strong></div><div class="inventory-row"><span>Adobe Creative Cloud</span><b class="tag-active">ATIVA</b></div><div class="inventory-row"><span>Microsoft 365</span><b class="tag-soon">RENOVA EM 12 DIAS</b></div><div class="inventory-row"><span>Antivírus Pro</span><b class="tag-expired">VENCIDA</b></div></div>
+            <span class="inventory-sticker">API REST<br />+ D1</span>
           </div>
-          <div class="project-info"><div class="project-meta"><span>02 / APLICAÇÃO FRONTEND</span><span>2026</span></div><h3>Inventário de Softwares</h3><p>Aplicação para registrar softwares, versões e renovações. A lista calcula a situação pela data, evita duplicatas, valida o vencimento e pede confirmação antes de excluir um registro.</p><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>localStorage</span></div><div class="project-links"><a class="project-demo-button" href="https://cadastro-de-inventario-de-softwares-de-ti.paulokauan.workers.dev/" target="_blank" rel="noreferrer" aria-label="Abrir o site de inventário em nova aba">abrir site <b>↗</b></a><a href="https://github.com/saleslima567-dotcom/Cadastro-de-Inventario-de-Softwares-de-TI." target="_blank" rel="noreferrer">ver repositório <b>↗</b></a></div><small class="project-footnote">Os dados ficam no navegador. O projeto não tem backend nem autenticação.</small></div>
+          <div class="project-info">
+            <div class="project-meta"><span>02 / APLICAÇÃO FULL STACK</span><span>2026</span></div>
+            <h3>Inventário de Softwares</h3>
+            <p>Sistema de gestão de licenças com contas individuais, autenticação por sessão e banco de dados na nuvem. Permite cadastrar, editar e excluir softwares, acompanhar renovações em um dashboard, pesquisar, filtrar e exportar registros.</p>
+            <ul class="project-highlights" aria-label="Destaques do Inventário de Softwares">
+              <li>API REST em JavaScript puro com Cloudflare Workers e D1</li>
+              <li>Inventários separados por usuário e sessões com cookies seguros</li>
+              <li>Testes automatizados e deploy integrado ao GitHub</li>
+            </ul>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Cloudflare Workers</span><span>D1 / SQLite</span><span>GitHub Actions</span></div>
+            <div class="project-links"><a class="project-demo-button" href="https://cadastro-de-inventario-de-softwares-de-ti.lokokaua567.workers.dev/" target="_blank" rel="noreferrer" aria-label="Abrir o Inventário de Softwares em nova aba">abrir sistema <b>↗</b></a><a href="https://github.com/saleslima567-dotcom/Cadastro-de-Inventario-de-Softwares-de-TI." target="_blank" rel="noreferrer">ver repositório <b>↗</b></a></div>
+            <small class="project-footnote">Projeto demonstrativo com dados no D1. Alertas automáticos por e-mail e recuperação de senha ainda não foram implementados. A prévia ilustrada mostra dados fictícios.</small>
+          </div>
         </article>
         <div class="more-projects reveal"><span>MAIS CÓDIGO, PROCESSO E EXPERIMENTOS</span><a href="https://github.com/saleslima567-dotcom?tab=repositories" target="_blank" rel="noreferrer">explorar todos os repositórios <b>↗</b></a></div>
       </section>
 
-      <section class="about section" id="sobre"><div class="wrap about-grid"><div class="about-title reveal"><p class="eyebrow">02 — um pouco sobre mim</p><h2>Aprender<br />faz parte do<br /><em>processo.</em></h2></div><div class="about-copy reveal"><p class="about-lead">Gosto de entender como as partes se conectam — interface, regras de negócio e dados — e transformar esse entendimento em algo que alguém consiga usar.</p><p>Estudo Análise e Desenvolvimento de Sistemas e coloco o aprendizado em prática. No LearnPlay, trabalhei com React, API Flask, banco de dados, testes e publicação; no Inventário de Softwares, desenvolvi uma solução frontend para acompanhar licenças e renovações.</p><div class="principles"><div><span>01</span><b>Aprender construindo</b></div><div><span>02</span><b>Resolver com simplicidade</b></div><div><span>03</span><b>Continuar evoluindo</b></div></div></div></div></section>
+      <section class="about section" id="sobre"><div class="wrap about-grid"><div class="about-title reveal"><p class="eyebrow">02 — um pouco sobre mim</p><h2>Aprender<br />faz parte do<br /><em>processo.</em></h2></div><div class="about-copy reveal"><p class="about-lead">Gosto de entender como as partes se conectam — interface, regras de negócio e dados — e transformar esse entendimento em algo que alguém consiga usar.</p><p>Estudo Análise e Desenvolvimento de Sistemas e coloco o aprendizado em prática. No LearnPlay, trabalhei com React, API Flask, banco de dados, testes e publicação; no Inventário de Softwares, conectei HTML, CSS e JavaScript puro a uma API Cloudflare Workers e ao banco D1 para gerenciar licenças com contas individuais.</p><div class="principles"><div><span>01</span><b>Aprender construindo</b></div><div><span>02</span><b>Resolver com simplicidade</b></div><div><span>03</span><b>Continuar evoluindo</b></div></div></div></div></section>
 
-      <section class="toolkit wrap section"><div class="section-head reveal"><p class="eyebrow">03 — ferramentas que venho usando</p><h2>Meu <em>kit de trabalho.</em></h2></div><div class="toolkit-grid reveal"><div class="tool"><span>01</span><b>Interface</b><p>HTML · CSS · JavaScript<br />React · TypeScript · Tailwind</p></div><div class="tool"><span>02</span><b>Servidor e dados</b><p>Python · Flask · SQLAlchemy<br />PostgreSQL · SQLite</p></div><div class="tool"><span>03</span><b>Qualidade e publicação</b><p>Git · GitHub · GitHub Actions<br />pytest · Docker · Render</p></div></div><p class="toolkit-note">Ferramentas aplicadas aos projetos apresentados; sigo estudando e aprofundando cada uma.</p></section>
+      <section class="toolkit wrap section"><div class="section-head reveal"><p class="eyebrow">03 — ferramentas que venho usando</p><h2>Meu <em>kit de trabalho.</em></h2></div><div class="toolkit-grid reveal"><div class="tool"><span>01</span><b>Interface</b><p>HTML · CSS · JavaScript<br />React · TypeScript · Tailwind</p></div><div class="tool"><span>02</span><b>Servidor e dados</b><p>Python · Flask · SQLAlchemy<br />PostgreSQL · SQLite · Cloudflare D1</p></div><div class="tool"><span>03</span><b>Qualidade e publicação</b><p>Git · GitHub · GitHub Actions<br />pytest · Docker · Render · Cloudflare Workers</p></div></div><p class="toolkit-note">Ferramentas aplicadas aos projetos apresentados; sigo estudando e aprofundando cada uma.</p></section>
 
       <section class="contact section" id="contato"><div class="wrap contact-inner reveal"><p class="eyebrow">04 — vamos conversar?</p><h2>O próximo projeto<br />pode ser <em>com você.</em></h2><p>Estou aberto a oportunidades para aprender, contribuir e crescer junto com uma equipe de desenvolvimento.</p><a class="contact-button" href="mailto:saleslima567@gmail.com">mande um e-mail <span>↗</span></a><span class="contact-mark">PK®</span></div></section>
     </main>
