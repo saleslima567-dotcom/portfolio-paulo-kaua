@@ -2,7 +2,7 @@
 
 Portfólio pessoal de um estudante de **Análise e Desenvolvimento de Sistemas** e desenvolvedor web em formação. O site reúne projetos selecionados, tecnologias que venho utilizando e formas de contato.
 
-**[Acessar portfólio](https://portfolio-paulo-kaua.paulokauan.workers.dev/)** · **[Perfil no GitHub](https://github.com/saleslima567-dotcom)**
+**[Acessar portfólio](https://portfolio-paulo-kaua.lokokaua567.workers.dev/)** · **[Perfil no GitHub](https://github.com/saleslima567-dotcom)**
 
 ## Projetos apresentados
 
@@ -40,7 +40,7 @@ Clone o repositório e abra `index.html` no navegador. Não é necessário execu
 
 ## Publicação
 
-**URL cadastrada no projeto:** https://portfolio-paulo-kaua.paulokauan.workers.dev/
+**URL cadastrada no projeto:** https://portfolio-paulo-kaua.lokokaua567.workers.dev/
 
 O portfólio está hospedado no **Cloudflare Workers** e possui integração **Cloudflare Workers Builds com a branch `main` do GitHub**. Após um commit integrado à `main`, a Cloudflare executa o build e o deploy; confira o resultado no histórico de builds antes de considerar a versão publicada. Pull Requests podem receber versões de preview. A configuração está em `wrangler.jsonc`, e `.assetsignore` exclui os arquivos internos do Git e documentos que não pertencem ao site.
 
