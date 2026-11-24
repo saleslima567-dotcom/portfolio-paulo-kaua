@@ -23,7 +23,9 @@ O portfólio é um site estático escrito em HTML, CSS e JavaScript, sem bundler
 portfolio-paulo-kaua/
 ├── index.html   # Conteúdo, projetos e links
 ├── style.css    # Layout, estilo visual e responsividade
-├── script.js    # Menu móvel e animações de entrada
+├── script.js      # Menu móvel e animações de entrada
+├── wrangler.jsonc # Configuração de deploy e previews Cloudflare
+├── .assetsignore  # Exclui arquivos internos da publicação
 └── README.md
 ```
 
@@ -40,7 +42,7 @@ Clone o repositório e abra `index.html` no navegador. Não é necessário execu
 
 **URL cadastrada no projeto:** https://portfolio-paulo-kaua.paulokauan.workers.dev/
 
-O portfólio é hospedado no Cloudflare. O envio de uma alteração ao GitHub **só publica o site automaticamente se a integração de build/deploy com o repositório estiver configurada**. Caso a hospedagem esteja usando upload manual, os arquivos precisam ser enviados novamente pelo painel do provedor.
+O portfólio está hospedado no **Cloudflare Workers** e possui integração **Cloudflare Workers Builds com a branch `main` do GitHub**. Após um commit integrado à `main`, a Cloudflare executa o build e o deploy; confira o resultado no histórico de builds antes de considerar a versão publicada. Pull Requests podem receber versões de preview. A configuração está em `wrangler.jsonc`, e `.assetsignore` exclui os arquivos internos do Git e documentos que não pertencem ao site.
 
 ## Atualização dos projetos
 
