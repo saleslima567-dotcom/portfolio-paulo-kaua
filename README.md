@@ -1,25 +1,51 @@
 # Portfólio — Paulo Kauã
 
-Site estático de apresentação profissional, em português, feito com HTML, CSS e JavaScript. Usa apenas informações confirmadas nos repositórios públicos `Learn-Play` e `Cadastro-de-Inventario-de-Softwares-de-TI.`.
+Portfólio pessoal de um estudante de **Análise e Desenvolvimento de Sistemas** e desenvolvedor web em formação. O site reúne projetos selecionados, tecnologias que venho utilizando e formas de contato.
 
-## Visualizar localmente
+**[Acessar portfólio](https://portfolio-paulo-kaua.paulokauan.workers.dev/)** · **[Perfil no GitHub](https://github.com/saleslima567-dotcom)**
 
-Abra `index.html` no navegador. O portfólio não exige instalação, build ou backend.
+## Projetos apresentados
+
+| Projeto | Descrição | Tecnologias |
+| --- | --- | --- |
+| **[LearnPlay](https://github.com/saleslima567-dotcom/Learn-Play)** | Plataforma acadêmica de cursos online com catálogo, autenticação por sessão e CSRF, perfis de acesso, matrículas, favoritos, aulas, avaliações, certificados imprimíveis e gráfico de progresso. | React 19, TypeScript, Flask, PostgreSQL, Tailwind CSS, Docker, GitHub Actions |
+| **[Inventário de Softwares de TI](https://github.com/saleslima567-dotcom/Cadastro-de-Inventario-de-Softwares-de-TI.)** | Aplicação frontend para cadastrar softwares e acompanhar licenças e renovações, com validações e armazenamento no navegador. | HTML, CSS, JavaScript, localStorage |
+
+O **LearnPlay é um protótipo acadêmico**: pagamento e reprodução de vídeo são demonstrativos; não há cobrança real ou streaming. O **Inventário** armazena registros no navegador e não usa backend ou autenticação.
+
+## Como executar o portfólio
+
+O portfólio é um site estático escrito em HTML, CSS e JavaScript, sem bundler, dependências npm ou backend.
+
+```text
+portfolio-paulo-kaua/
+├── index.html   # Conteúdo, projetos e links
+├── style.css    # Layout, estilo visual e responsividade
+├── script.js    # Menu móvel e animações de entrada
+└── README.md
+```
+
+Clone o repositório e abra `index.html` no navegador. Não é necessário executar `npm install` nem configurar banco de dados.
+
+## Interface e acessibilidade
+
+- Layout responsivo para desktop e celular.
+- Identidade visual do portfólio em tons de creme e verde.
+- Prévia ilustrativa do LearnPlay inspirada na identidade atual em vinho e grafite.
+- Menu móvel acessível, navegação por âncoras e efeitos de entrada com respeito à preferência por movimento reduzido.
 
 ## Publicação
 
-**Acessar o portfólio:** [portfolio-paulo-kaua.paulokauan.workers.dev](https://portfolio-paulo-kaua.paulokauan.workers.dev/)
+**URL cadastrada no projeto:** https://portfolio-paulo-kaua.paulokauan.workers.dev/
 
-O portfólio é um site estático, sem etapa de build: `index.html`, `style.css` e `script.js` ficam na raiz. Para que cada envio ao GitHub publique a nova versão automaticamente, o serviço precisa estar conectado ao repositório `saleslima567-dotcom/portfolio-paulo-kaua` por Git integration/Workers Builds. Se o deploy tiver sido feito por upload manual, será necessário enviar os arquivos atualizados pelo painel do Cloudflare.
+O portfólio é hospedado no Cloudflare. O envio de uma alteração ao GitHub **só publica o site automaticamente se a integração de build/deploy com o repositório estiver configurada**. Caso a hospedagem esteja usando upload manual, os arquivos precisam ser enviados novamente pelo painel do provedor.
 
-O contato por e-mail abre uma nova mensagem para saleslima567@gmail.com.
+## Atualização dos projetos
 
-## Conteúdo
+Os dois projetos exibidos estão definidos no `index.html`. Se os recursos, links ou tecnologias mudarem, atualize esse arquivo e revise a apresentação correspondente no `style.css`.
 
-- **Learn-Play:** catálogo de cursos, autenticação por sessão e CSRF, perfis, matrículas, conteúdo, progresso, avaliações e painel administrativo. React, TypeScript, Flask, SQLAlchemy, PostgreSQL e Docker. Pagamento e vídeo são demonstrativos.
-- **Inventário de Softwares de TI:** cadastro/listagem e exclusão confirmada; validação de datas e cálculo da situação de renovação. HTML, CSS, JavaScript e `localStorage`; os dados ficam no navegador e não há backend nem autenticação.
+Os links de demonstração devem ser conferidos antes de divulgar o portfólio em currículos ou candidaturas.
 
-## Personalização
+---
 
-Os links de GitHub e da demonstração estão em `index.html`. Atualize-os se os repositórios ou endereços mudarem. O e-mail informado pelo autor está incluído como contato clicável.
-
+Feito por **Paulo Kauã** · [Contato por e-mail](mailto:saleslima567@gmail.com)
