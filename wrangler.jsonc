@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-paulo-kaua",
+  "compatibility_date": "2026-11-24",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "."
+  },
+  "previews": {}
+}
