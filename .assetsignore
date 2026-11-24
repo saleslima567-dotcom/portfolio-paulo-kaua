@@ -1,0 +1,16 @@
+# Only site assets are intended for public deployment.
+# Cloudflare Workers Static Assets uses gitignore-style patterns.
+**/.git
+**/.git/**
+**/.github
+**/.github/**
+**/node_modules
+**/node_modules/**
+**/.DS_Store
+README.md
+wrangler.jsonc
+.assetsignore
+.gitignore
+.wrangler
+.wrangler/**
+.dev.vars*
