@@ -8,7 +8,7 @@ Portfólio pessoal de um estudante de **Análise e Desenvolvimento de Sistemas**
 
 | Projeto | Descrição | Tecnologias |
 | --- | --- | --- |
-| **[LearnPlay](https://github.com/saleslima567-dotcom/Learn-Play)** | Plataforma acadêmica de cursos online com catálogo, autenticação por sessão e CSRF, perfis de acesso, matrículas, favoritos, aulas, avaliações, certificados imprimíveis e gráfico de progresso. | React 19, TypeScript, Flask, PostgreSQL, Tailwind CSS, Docker, GitHub Actions |
+| **[LearnPlay](https://github.com/saleslima567-dotcom/Learn-Play)** | Plataforma acadêmica de cursos online com catálogo, autenticação por sessão, perfis de acesso, matrículas, favoritos, aulas, avaliações, certificados e progresso. Inclui proteção CSRF, limites de requisições de autenticação, cabeçalhos de segurança, testes automatizados e auditoria de dependências na CI. | React 19, TypeScript, Flask, PostgreSQL, Tailwind CSS, Docker, GitHub Actions |
 | **[Inventário de Softwares de TI](https://github.com/saleslima567-dotcom/Cadastro-de-Inventario-de-Softwares-de-TI.)** | Sistema de gestão de licenças com contas individuais, API REST, autenticação por sessão, CRUD, dashboard de vencimentos, filtros e exportações CSV/JSON; dados armazenados no Cloudflare D1. | HTML, CSS, JavaScript puro, Cloudflare Workers, D1 (SQLite), GitHub Actions |
 
 O **LearnPlay é um protótipo acadêmico**: pagamento e reprodução de vídeo são demonstrativos; não há cobrança real ou streaming. O **Inventário** utiliza backend em Cloudflare Workers e persistência no banco D1. A versão atual não envia alertas automáticos por e-mail nem oferece recuperação de senha.
