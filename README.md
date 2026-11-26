@@ -17,13 +17,13 @@ O **LearnPlay é um protótipo acadêmico**: pagamento e reprodução de vídeo 
 
 ## Como executar o portfólio
 
-O portfólio é um site estático escrito em HTML, CSS e JavaScript, sem bundler, dependências npm ou backend.
+O portfólio é um site estático escrito em HTML e CSS. Pode ser aberto sem instalar dependências ou iniciar um servidor.
 
 ```text
 portfolio-paulo-kaua/
 ├── index.html   # Conteúdo, projetos e links
 ├── style.css    # Layout, estilo visual e responsividade
-├── script.js      # Menu móvel e animações de entrada
+├── assets/      # Capturas das interfaces em WebP
 ├── wrangler.jsonc # Configuração de deploy e previews Cloudflare
 ├── .assetsignore  # Exclui arquivos internos da publicação
 └── README.md
@@ -35,8 +35,8 @@ Clone o repositório e abra `index.html` no navegador. Não é necessário execu
 
 - Layout responsivo para desktop e celular.
 - Identidade visual do portfólio em tons de creme e verde.
-- Prévias ilustrativas de ambos os projetos, com informações alinhadas às suas implementações atuais; os números mostrados nas ilustrações são demonstrativos.
-- Menu móvel acessível, navegação por âncoras e efeitos de entrada com respeito à preferência por movimento reduzido.
+- Capturas da catálogo público do LearnPlay e da interface do Inventário. A captura do Inventário usa dados fictícios em ambiente local.
+- Navegação por âncoras, foco visível e atalho para pular direto ao conteúdo.
 
 ## Publicação
 
@@ -46,7 +46,7 @@ O portfólio está hospedado no **Cloudflare Workers** e possui integração **C
 
 ## Atualização dos projetos
 
-Os dois projetos exibidos estão definidos no `index.html`. Se os recursos, links ou tecnologias mudarem, atualize a descrição, os destaques, as tecnologias, os links e, quando necessário, as representações visuais. A implementação do portfólio permanece em HTML, CSS e JavaScript sem frameworks.
+Os dois projetos exibidos estão definidos no `index.html`. Se os recursos, links ou tecnologias mudarem, atualize a descrição, as tecnologias, os links e, quando necessário, as capturas de tela.
 
 Os links de demonstração devem ser conferidos antes de divulgar o portfólio em currículos ou candidaturas.
 
